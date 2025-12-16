@@ -1,0 +1,96 @@
+main {
+  padding: 0rem 5rem;
+}
+.function-container {
+  width: 100%;
+  text-align: center;
+}
+
+.function-title {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #643b9a;
+}
+
+.function-subtitle {
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+}
+
+.function-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.step-card {
+  background-color: #14142d;
+  min-height: 14rem;
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+  color: white;
+  text-align: left;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step-number {
+  padding: 0.5rem 1rem;
+  background-color: #643b9a;
+  border-radius: 1.5rem;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.step-icon {
+  margin-left: 1.25rem;
+  color: #3b82f6;
+  width: 24px;
+  height: 24px;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.step-content {
+  padding-left: 6.75rem;
+}
+
+.step-description {
+  margin: 0.5rem 0 0 0;
+}
+
+.step-components {
+  margin-top: 1.25rem;
+}
+
+.components-title {
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+
+.components-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0.5rem;
+}
+
+.component-item {
+  margin: 0.25rem 0;
+}
