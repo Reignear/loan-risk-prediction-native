@@ -53,6 +53,7 @@ function createNavBar() {
             .join("")}
           <li class="nav-item">
             <a 
+              href="https://github.com/Reignear/loan-risk-prediction-native"
               target="_blank" 
               rel="noopener noreferrer" 
               class="nav-link nav-link-icon"
