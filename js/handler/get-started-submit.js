@@ -20,6 +20,9 @@ document.getElementById("form").addEventListener("submit", function (event) {
     previous: document.getElementById("previous").value,
     previousOutcome: document.getElementById("previous-outcome").value,
   };
+});
 
-  console.log("Form Data Submitted:", formData);
+document.querySelectorAll(".indicator-chart").forEach((chart) => {
+  const percentage = chart.getAttribute("data-percentage");
+  chart.style.setProperty("--percentage", percentage);
 });
